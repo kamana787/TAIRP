@@ -1,0 +1,131 @@
+.nav{
+    height:50px;
+    width:100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pic{
+    height: 50px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    display: flex;
+    font-family: Bahnschrift;
+    font-size: 1.2rem;
+}
+#img{
+    height: 50px;
+}
+.navbar{
+    height: 50px;
+    width: 720px;
+    background-color: black;
+    color: white;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+}
+.navbar li{
+
+     display:inline;
+}
+.navbar li a{
+    color: white;
+    font-family: forte;
+    text-decoration: none;
+}
+#home{
+    margin-left: -30px;
+}
+
+.email{
+    
+    height: 50px;
+    width: 200px;
+    background-color: black;
+    
+}
+.email p{
+    margin-top: 15px;
+    font-weight: bold;
+}
+.parent{
+    height: 650px;
+    width: 100%;
+    /* background-color:lightblue; */
+}
+.left{
+    height: 650px;
+    width: 50%;
+    background-color: #9BB1FF;
+    float:left;
+}
+.right{
+    height: 650px;
+    width: 50%;
+    background-color: #9BB1FF;
+    float:right;
+}
+#main{
+    width: 600px;
+    height: 500px;
+}
+.footer{
+    height: 550px;
+    width: 100%;
+    background-color:darkgray;
+    
+
+
+}
+#bottompic{
+    height: 30%;
+    width: 100%;
+   background-image: url("v-removebg-preview.png");
+   background-size: auto;
+   background-repeat: no-repeat;
+   margin-left: 40%;    
+
+}
+h1{
+    margin-left: 50% ;
+}
+.footer p{
+    margin-top: -20px;
+    font-size: 2rem;
+    font-family: Bahnschrift;
+    font-weight: 500;
+}
+#name{
+    margin-top: 100px;
+    margin-left:30px;
+    font-family: Arial;
+    font-size: 25px;
+
+}
+#boldname{
+    font-weight: 700;
+    margin-left: 30px;
+    font-size: 3rem;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+button{
+    margin-left:40px;
+    margin-top: 30px;
+    height:50px;
+    width:110px;
+    background-color: black;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+  

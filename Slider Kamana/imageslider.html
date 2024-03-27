@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1>Image Slider</h1>
+    <div class="parent">
+        <div id="back">
+            <button id="previous" onclick="back();">&#x25C0;</button>
+        </div>
+    <div class="image">
+        <img src="" id="pic">
+    </div>
+    <div id="frwd">
+        <button id="next" onclick="next();">&#x25BA;</button>
+    </div>
+</div>
+    <script>
+        pic=["a.webp","e.avif","g1.webp"];
+        var value=0;
+        slide();
+        function slide(){
+            document.getElementById("pic").src=pic[value];  
+            value++;
+            if(value==pic.length){
+                value=0;
+            }
+        }
+        // window.setInterval(slide,3000);
+
+        function back(){
+            document.getElementById("pic").src=pic[value];
+            value--;
+            if(value==0){
+                value=pic.length-1;
+            }
+        }
+        function next(){
+            document.getElementById("pic").src=pic[value];
+            value++;
+            if(value==pic.length){
+                value=0;
+            }
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+.parent{
+    height: 700px;
+    width:100%;
+    border: 1px solid black;
+    background-color: #9BB1FF;
+    position: relative;
+}
+.image{
+    position: absolute;
+    height: 550px;
+    width:800px;
+    top: 10%;
+    left: 25%;
+    border: 1px solid white;
+    background-color: brown;
+    background-image: url("/C:/Users/acer/Desktop/Portfolio Kamana/certificate.jpg");
+    background-size: cover;
+}

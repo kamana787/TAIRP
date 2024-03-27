@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+    background-color: white;
+    font-family: Tahoma;
+    color: black;
+}
+.parent{
+    display: flex;
+    justify-content: center;
+}
+#back{
+    height: 500px;
+    width: 100px;
+    align-content: center;
+}
+#frwd{
+    height: 500px;
+    width: 100px;
+    align-content: center;
+}
+.image img{
+    height: 500px;
+    width: auto;
+    
+} 
+button{
+    height: 100px;
+    width: 100px;
+    font-size: larger;
+    background-color: transparent;
+    border: transparent;
+    color: transparent;
+}
+button:hover{
+    border: 1px solid black;
+    color: black;
+}
